@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538AA16325E0E89500278614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16225E0E89500278614 /* AppDelegate.swift */; };
+		538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16425E0E89500278614 /* SceneDelegate.swift */; };
+		538AA16725E0E89500278614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16625E0E89500278614 /* ViewController.swift */; };
+		538AA16A25E0E89500278614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AA16825E0E89500278614 /* Main.storyboard */; };
+		538AA16C25E0E89600278614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538AA16B25E0E89600278614 /* Assets.xcassets */; };
+		538AA16F25E0E89600278614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AA16D25E0E89600278614 /* LaunchScreen.storyboard */; };
+		538AA17A25E0E89600278614 /* OroshifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA17925E0E89600278614 /* OroshifyTests.swift */; };
+		538AA18525E0E89600278614 /* OroshifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA18425E0E89600278614 /* OroshifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		538AA17625E0E89600278614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538AA15725E0E89500278614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538AA15E25E0E89500278614;
+			remoteInfo = Oroshify;
+		};
+		538AA18125E0E89600278614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538AA15725E0E89500278614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538AA15E25E0E89500278614;
+			remoteInfo = Oroshify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		538AA15F25E0E89500278614 /* Oroshify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oroshify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538AA16225E0E89500278614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		538AA16425E0E89500278614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		538AA16625E0E89500278614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		538AA16925E0E89500278614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538AA16B25E0E89600278614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538AA16E25E0E89600278614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		538AA17025E0E89600278614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538AA17525E0E89600278614 /* OroshifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroshifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		538AA17925E0E89600278614 /* OroshifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroshifyTests.swift; sourceTree = "<group>"; };
+		538AA17B25E0E89600278614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538AA18025E0E89600278614 /* OroshifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroshifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		538AA18425E0E89600278614 /* OroshifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroshifyUITests.swift; sourceTree = "<group>"; };
+		538AA18625E0E89600278614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538AA15C25E0E89500278614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AA17225E0E89600278614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AA17D25E0E89600278614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538AA15625E0E89500278614 = {
+			isa = PBXGroup;
+			children = (
+				538AA16125E0E89500278614 /* Oroshify */,
+				538AA17825E0E89600278614 /* OroshifyTests */,
+				538AA18325E0E89600278614 /* OroshifyUITests */,
+				538AA16025E0E89500278614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538AA16025E0E89500278614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538AA15F25E0E89500278614 /* Oroshify.app */,
+				538AA17525E0E89600278614 /* OroshifyTests.xctest */,
+				538AA18025E0E89600278614 /* OroshifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538AA16125E0E89500278614 /* Oroshify */ = {
+			isa = PBXGroup;
+			children = (
+				538AA16225E0E89500278614 /* AppDelegate.swift */,
+				538AA16425E0E89500278614 /* SceneDelegate.swift */,
+				538AA16625E0E89500278614 /* ViewController.swift */,
+				538AA16825E0E89500278614 /* Main.storyboard */,
+				538AA16B25E0E89600278614 /* Assets.xcassets */,
+				538AA16D25E0E89600278614 /* LaunchScreen.storyboard */,
+				538AA17025E0E89600278614 /* Info.plist */,
+			);
+			path = Oroshify;
+			sourceTree = "<group>";
+		};
+		538AA17825E0E89600278614 /* OroshifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				538AA17925E0E89600278614 /* OroshifyTests.swift */,
+				538AA17B25E0E89600278614 /* Info.plist */,
+			);
+			path = OroshifyTests;
+			sourceTree = "<group>";
+		};
+		538AA18325E0E89600278614 /* OroshifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				538AA18425E0E89600278614 /* OroshifyUITests.swift */,
+				538AA18625E0E89600278614 /* Info.plist */,
+			);
+			path = OroshifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538AA15E25E0E89500278614 /* Oroshify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538AA18925E0E89600278614 /* Build configuration list for PBXNativeTarget "Oroshify" */;
+			buildPhases = (
+				538AA15B25E0E89500278614 /* Sources */,
+				538AA15C25E0E89500278614 /* Frameworks */,
+				538AA15D25E0E89500278614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oroshify;
+			productName = Oroshify;
+			productReference = 538AA15F25E0E89500278614 /* Oroshify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		538AA17425E0E89600278614 /* OroshifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538AA18C25E0E89600278614 /* Build configuration list for PBXNativeTarget "OroshifyTests" */;
+			buildPhases = (
+				538AA17125E0E89600278614 /* Sources */,
+				538AA17225E0E89600278614 /* Frameworks */,
+				538AA17325E0E89600278614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538AA17725E0E89600278614 /* PBXTargetDependency */,
+			);
+			name = OroshifyTests;
+			productName = OroshifyTests;
+			productReference = 538AA17525E0E89600278614 /* OroshifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		538AA17F25E0E89600278614 /* OroshifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538AA18F25E0E89600278614 /* Build configuration list for PBXNativeTarget "OroshifyUITests" */;
+			buildPhases = (
+				538AA17C25E0E89600278614 /* Sources */,
+				538AA17D25E0E89600278614 /* Frameworks */,
+				538AA17E25E0E89600278614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538AA18225E0E89600278614 /* PBXTargetDependency */,
+			);
+			name = OroshifyUITests;
+			productName = OroshifyUITests;
+			productReference = 538AA18025E0E89600278614 /* OroshifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538AA15725E0E89500278614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					538AA15E25E0E89500278614 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					538AA17425E0E89600278614 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 538AA15E25E0E89500278614;
+					};
+					538AA17F25E0E89600278614 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 538AA15E25E0E89500278614;
+					};
+				};
+			};
+			buildConfigurationList = 538AA15A25E0E89500278614 /* Build configuration list for PBXProject "Oroshify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538AA15625E0E89500278614;
+			productRefGroup = 538AA16025E0E89500278614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538AA15E25E0E89500278614 /* Oroshify */,
+				538AA17425E0E89600278614 /* OroshifyTests */,
+				538AA17F25E0E89600278614 /* OroshifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538AA15D25E0E89500278614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AA16F25E0E89600278614 /* LaunchScreen.storyboard in Resources */,
+				538AA16C25E0E89600278614 /* Assets.xcassets in Resources */,
+				538AA16A25E0E89500278614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AA17325E0E89600278614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AA17E25E0E89600278614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538AA15B25E0E89500278614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AA16725E0E89500278614 /* ViewController.swift in Sources */,
+				538AA16325E0E89500278614 /* AppDelegate.swift in Sources */,
+				538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AA17125E0E89600278614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AA17A25E0E89600278614 /* OroshifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538AA17C25E0E89600278614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538AA18525E0E89600278614 /* OroshifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538AA17725E0E89600278614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538AA15E25E0E89500278614 /* Oroshify */;
+			targetProxy = 538AA17625E0E89600278614 /* PBXContainerItemProxy */;
+		};
+		538AA18225E0E89600278614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538AA15E25E0E89500278614 /* Oroshify */;
+			targetProxy = 538AA18125E0E89600278614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		538AA16825E0E89500278614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538AA16925E0E89500278614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		538AA16D25E0E89600278614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538AA16E25E0E89600278614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538AA18725E0E89600278614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538AA18825E0E89600278614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538AA18A25E0E89600278614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUFAT5586;
+				INFOPLIST_FILE = Oroshify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.japanfuseinc.Oroshify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538AA18B25E0E89600278614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUFAT5586;
+				INFOPLIST_FILE = Oroshify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.japanfuseinc.Oroshify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		538AA18D25E0E89600278614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUFAT5586;
+				INFOPLIST_FILE = OroshifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.japanfuseinc.OroshifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oroshify.app/Oroshify";
+			};
+			name = Debug;
+		};
+		538AA18E25E0E89600278614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUFAT5586;
+				INFOPLIST_FILE = OroshifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.japanfuseinc.OroshifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oroshify.app/Oroshify";
+			};
+			name = Release;
+		};
+		538AA19025E0E89600278614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUFAT5586;
+				INFOPLIST_FILE = OroshifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.japanfuseinc.OroshifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oroshify;
+			};
+			name = Debug;
+		};
+		538AA19125E0E89600278614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RUFAT5586;
+				INFOPLIST_FILE = OroshifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.japanfuseinc.OroshifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oroshify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538AA15A25E0E89500278614 /* Build configuration list for PBXProject "Oroshify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AA18725E0E89600278614 /* Debug */,
+				538AA18825E0E89600278614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538AA18925E0E89600278614 /* Build configuration list for PBXNativeTarget "Oroshify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AA18A25E0E89600278614 /* Debug */,
+				538AA18B25E0E89600278614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538AA18C25E0E89600278614 /* Build configuration list for PBXNativeTarget "OroshifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AA18D25E0E89600278614 /* Debug */,
+				538AA18E25E0E89600278614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538AA18F25E0E89600278614 /* Build configuration list for PBXNativeTarget "OroshifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538AA19025E0E89600278614 /* Debug */,
+				538AA19125E0E89600278614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538AA15725E0E89500278614 /* Project object */;
+}
