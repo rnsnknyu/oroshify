@@ -1,0 +1,6 @@
+framework module Pods_Oroshify {
+  umbrella header "Pods-Oroshify-umbrella.h"
+
+  export *
+  module * { export * }
+}

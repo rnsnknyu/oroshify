@@ -1,0 +1,6 @@
+framework module Pods_Oroshify_OroshifyUITests {
+  umbrella header "Pods-Oroshify-OroshifyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

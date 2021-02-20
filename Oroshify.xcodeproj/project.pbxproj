@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236785571E7040BD9A4BBE3B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AC6C6D43054124B5DE37BB /* Todo.swift */; };
+		2B72356766D24625BEA170E0 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36DC55B1F1E4FA997F06BA2 /* Todo+Schema.swift */; };
 		538AA16325E0E89500278614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16225E0E89500278614 /* AppDelegate.swift */; };
 		538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16425E0E89500278614 /* SceneDelegate.swift */; };
 		538AA16725E0E89500278614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16625E0E89500278614 /* ViewController.swift */; };
@@ -15,6 +17,13 @@
 		538AA16F25E0E89600278614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AA16D25E0E89600278614 /* LaunchScreen.storyboard */; };
 		538AA17A25E0E89600278614 /* OroshifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA17925E0E89600278614 /* OroshifyTests.swift */; };
 		538AA18525E0E89600278614 /* OroshifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA18425E0E89600278614 /* OroshifyUITests.swift */; };
+		A8F440E9254E448B981AE029 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 25F21F32BF114D54873BB852 /* awsconfiguration.json */; };
+		AE0414CB6E44DD319CFC3F7D /* Pods_Oroshify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0264B2E6F65C2C900D30AD78 /* Pods_Oroshify.framework */; };
+		B60810B3DCC747BF9C2F62DA /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE9BE250A42F09F11A66C /* Priority.swift */; };
+		BBC897EE759F4D95B1C3E8AC /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A115FE7CC428597AF9461 /* AmplifyModels.swift */; };
+		C8EAC4BA94AD4BEB98E05578 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA27CE50AC24CE7BB3C3AB2 /* amplifyconfiguration.json */; };
+		DB691E60E58A11B7079EF760 /* Pods_Oroshify_OroshifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334D87FA1E12F6332573ABD7 /* Pods_Oroshify_OroshifyUITests.framework */; };
+		F1C9294ADF61CAFED4BF843A /* Pods_OroshifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41212E62DCAFECC0054B662 /* Pods_OroshifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0264B2E6F65C2C900D30AD78 /* Pods_Oroshify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oroshify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		173D914FEEA3E0714314C36F /* Pods-Oroshify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oroshify.release.xcconfig"; path = "Target Support Files/Pods-Oroshify/Pods-Oroshify.release.xcconfig"; sourceTree = "<group>"; };
+		1E7A115FE7CC428597AF9461 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		25F21F32BF114D54873BB852 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		334D87FA1E12F6332573ABD7 /* Pods_Oroshify_OroshifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oroshify_OroshifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA27CE50AC24CE7BB3C3AB2 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		4CE5B8FB588742AD963DFBD0 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
 		538AA15F25E0E89500278614 /* Oroshify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oroshify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AA16225E0E89500278614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538AA16425E0E89500278614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,16 @@
 		538AA18025E0E89600278614 /* OroshifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroshifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AA18425E0E89600278614 /* OroshifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroshifyUITests.swift; sourceTree = "<group>"; };
 		538AA18625E0E89600278614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689B8BD7D1A44B8D3906134E /* Pods-Oroshify-OroshifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oroshify-OroshifyUITests.release.xcconfig"; path = "Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E7A261C3E2E5940D6A04341 /* Pods-Oroshify-OroshifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oroshify-OroshifyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA50070A273944C09BB251EE /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		BD6BE9BE250A42F09F11A66C /* Priority.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = amplify/generated/models/Priority.swift; sourceTree = "<group>"; };
+		C41212E62DCAFECC0054B662 /* Pods_OroshifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OroshifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36DC55B1F1E4FA997F06BA2 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
+		D3B3FBFE696EF46EA4991801 /* Pods-OroshifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroshifyTests.debug.xcconfig"; path = "Target Support Files/Pods-OroshifyTests/Pods-OroshifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6D8EE3A3F2ED9D75743A945 /* Pods-OroshifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroshifyTests.release.xcconfig"; path = "Target Support Files/Pods-OroshifyTests/Pods-OroshifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9AC6C6D43054124B5DE37BB /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
+		FE0BC0AFB56E642BA0F0CAFA /* Pods-Oroshify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oroshify.debug.xcconfig"; path = "Target Support Files/Pods-Oroshify/Pods-Oroshify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0414CB6E44DD319CFC3F7D /* Pods_Oroshify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C9294ADF61CAFED4BF843A /* Pods_OroshifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB691E60E58A11B7079EF760 /* Pods_Oroshify_OroshifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				538AA16125E0E89500278614 /* Oroshify */,
+				56B37238E608430183A2F4F9 /* AmplifyConfig */,
+				DFB82ED92878447ABA9A0E3B /* AmplifyModels */,
 				538AA17825E0E89600278614 /* OroshifyTests */,
 				538AA18325E0E89600278614 /* OroshifyUITests */,
 				538AA16025E0E89500278614 /* Products */,
+				7E92976CBFD3C2C6D05798AA /* Pods */,
+				726BEEA815B7E857BB328492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +161,53 @@
 			path = OroshifyUITests;
 			sourceTree = "<group>";
 		};
+		56B37238E608430183A2F4F9 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4CE5B8FB588742AD963DFBD0 /* amplifytools.xcconfig */,
+				4AA27CE50AC24CE7BB3C3AB2 /* amplifyconfiguration.json */,
+				25F21F32BF114D54873BB852 /* awsconfiguration.json */,
+				AA50070A273944C09BB251EE /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		726BEEA815B7E857BB328492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0264B2E6F65C2C900D30AD78 /* Pods_Oroshify.framework */,
+				334D87FA1E12F6332573ABD7 /* Pods_Oroshify_OroshifyUITests.framework */,
+				C41212E62DCAFECC0054B662 /* Pods_OroshifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E92976CBFD3C2C6D05798AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE0BC0AFB56E642BA0F0CAFA /* Pods-Oroshify.debug.xcconfig */,
+				173D914FEEA3E0714314C36F /* Pods-Oroshify.release.xcconfig */,
+				8E7A261C3E2E5940D6A04341 /* Pods-Oroshify-OroshifyUITests.debug.xcconfig */,
+				689B8BD7D1A44B8D3906134E /* Pods-Oroshify-OroshifyUITests.release.xcconfig */,
+				D3B3FBFE696EF46EA4991801 /* Pods-OroshifyTests.debug.xcconfig */,
+				E6D8EE3A3F2ED9D75743A945 /* Pods-OroshifyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFB82ED92878447ABA9A0E3B /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A115FE7CC428597AF9461 /* AmplifyModels.swift */,
+				BD6BE9BE250A42F09F11A66C /* Priority.swift */,
+				E9AC6C6D43054124B5DE37BB /* Todo.swift */,
+				D36DC55B1F1E4FA997F06BA2 /* Todo+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 538AA18925E0E89600278614 /* Build configuration list for PBXNativeTarget "Oroshify" */;
 			buildPhases = (
+				F8EDE9D355F190650505833B /* [CP] Check Pods Manifest.lock */,
 				538AA15B25E0E89500278614 /* Sources */,
 				538AA15C25E0E89500278614 /* Frameworks */,
 				538AA15D25E0E89500278614 /* Resources */,
+				1EF3FC46FE85DCCFDFF871D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 538AA18C25E0E89600278614 /* Build configuration list for PBXNativeTarget "OroshifyTests" */;
 			buildPhases = (
+				C9E9DAF9CD8307497C4C7BFB /* [CP] Check Pods Manifest.lock */,
 				538AA17125E0E89600278614 /* Sources */,
 				538AA17225E0E89600278614 /* Frameworks */,
 				538AA17325E0E89600278614 /* Resources */,
@@ -170,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 538AA18F25E0E89600278614 /* Build configuration list for PBXNativeTarget "OroshifyUITests" */;
 			buildPhases = (
+				A9534D4B55D7C79F18F18471 /* [CP] Check Pods Manifest.lock */,
 				538AA17C25E0E89600278614 /* Sources */,
 				538AA17D25E0E89600278614 /* Frameworks */,
 				538AA17E25E0E89600278614 /* Resources */,
+				A23E37C31E7A080F8FDCCD9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +319,8 @@
 				538AA16F25E0E89600278614 /* LaunchScreen.storyboard in Resources */,
 				538AA16C25E0E89600278614 /* Assets.xcassets in Resources */,
 				538AA16A25E0E89500278614 /* Main.storyboard in Resources */,
+				C8EAC4BA94AD4BEB98E05578 /* amplifyconfiguration.json in Resources */,
+				A8F440E9254E448B981AE029 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +340,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF3FC46FE85DCCFDFF871D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oroshify/Pods-Oroshify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oroshify/Pods-Oroshify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oroshify/Pods-Oroshify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23E37C31E7A080F8FDCCD9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9534D4B55D7C79F18F18471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oroshify-OroshifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E9DAF9CD8307497C4C7BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OroshifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8EDE9D355F190650505833B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oroshify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		538AA15B25E0E89500278614 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +451,10 @@
 				538AA16725E0E89500278614 /* ViewController.swift in Sources */,
 				538AA16325E0E89500278614 /* AppDelegate.swift in Sources */,
 				538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */,
+				BBC897EE759F4D95B1C3E8AC /* AmplifyModels.swift in Sources */,
+				B60810B3DCC747BF9C2F62DA /* Priority.swift in Sources */,
+				236785571E7040BD9A4BBE3B /* Todo.swift in Sources */,
+				2B72356766D24625BEA170E0 /* Todo+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +627,7 @@
 		};
 		538AA18A25E0E89600278614 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0BC0AFB56E642BA0F0CAFA /* Pods-Oroshify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +647,7 @@
 		};
 		538AA18B25E0E89600278614 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173D914FEEA3E0714314C36F /* Pods-Oroshify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +667,7 @@
 		};
 		538AA18D25E0E89600278614 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B3FBFE696EF46EA4991801 /* Pods-OroshifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +690,7 @@
 		};
 		538AA18E25E0E89600278614 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D8EE3A3F2ED9D75743A945 /* Pods-OroshifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +713,7 @@
 		};
 		538AA19025E0E89600278614 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7A261C3E2E5940D6A04341 /* Pods-Oroshify-OroshifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +734,7 @@
 		};
 		538AA19125E0E89600278614 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689B8BD7D1A44B8D3906134E /* Pods-Oroshify-OroshifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
