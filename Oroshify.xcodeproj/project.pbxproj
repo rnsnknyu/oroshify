@@ -17,6 +17,12 @@
 		538AA16F25E0E89600278614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538AA16D25E0E89600278614 /* LaunchScreen.storyboard */; };
 		538AA17A25E0E89600278614 /* OroshifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA17925E0E89600278614 /* OroshifyTests.swift */; };
 		538AA18525E0E89600278614 /* OroshifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA18425E0E89600278614 /* OroshifyUITests.swift */; };
+		53A5890625E0F2E4002A33BF /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A5890525E0F2E4002A33BF /* Authentication.storyboard */; };
+		53A5890E25E0F32E002A33BF /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5890D25E0F32E002A33BF /* AuthenticationViewController.swift */; };
+		53A5891425E0F346002A33BF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5891325E0F346002A33BF /* SignupViewController.swift */; };
+		53A5891C25E0F34E002A33BF /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5891B25E0F34E002A33BF /* SigninViewController.swift */; };
+		53A5892125E0F36B002A33BF /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A5892025E0F36B002A33BF /* Base.storyboard */; };
+		53A5895425E0F410002A33BF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5895325E0F410002A33BF /* CustomTabBarController.swift */; };
 		A8F440E9254E448B981AE029 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 25F21F32BF114D54873BB852 /* awsconfiguration.json */; };
 		AE0414CB6E44DD319CFC3F7D /* Pods_Oroshify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0264B2E6F65C2C900D30AD78 /* Pods_Oroshify.framework */; };
 		B60810B3DCC747BF9C2F62DA /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE9BE250A42F09F11A66C /* Priority.swift */; };
@@ -65,6 +71,12 @@
 		538AA18025E0E89600278614 /* OroshifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroshifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AA18425E0E89600278614 /* OroshifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroshifyUITests.swift; sourceTree = "<group>"; };
 		538AA18625E0E89600278614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A5890525E0F2E4002A33BF /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		53A5890D25E0F32E002A33BF /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		53A5891325E0F346002A33BF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		53A5891B25E0F34E002A33BF /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		53A5892025E0F36B002A33BF /* Base.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		53A5895325E0F410002A33BF /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		689B8BD7D1A44B8D3906134E /* Pods-Oroshify-OroshifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oroshify-OroshifyUITests.release.xcconfig"; path = "Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E7A261C3E2E5940D6A04341 /* Pods-Oroshify-OroshifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oroshify-OroshifyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Oroshify-OroshifyUITests/Pods-Oroshify-OroshifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA50070A273944C09BB251EE /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
@@ -132,12 +144,11 @@
 		538AA16125E0E89500278614 /* Oroshify */ = {
 			isa = PBXGroup;
 			children = (
-				538AA16225E0E89500278614 /* AppDelegate.swift */,
-				538AA16425E0E89500278614 /* SceneDelegate.swift */,
+				53A5890025E0F2B3002A33BF /* Delegates */,
 				538AA16625E0E89500278614 /* ViewController.swift */,
-				538AA16825E0E89500278614 /* Main.storyboard */,
-				538AA16B25E0E89600278614 /* Assets.xcassets */,
-				538AA16D25E0E89600278614 /* LaunchScreen.storyboard */,
+				53A5891225E0F339002A33BF /* Authentication */,
+				53A5890425E0F2C1002A33BF /* Storyboards */,
+				53A5895325E0F410002A33BF /* CustomTabBarController.swift */,
 				538AA17025E0E89600278614 /* Info.plist */,
 			);
 			path = Oroshify;
@@ -159,6 +170,37 @@
 				538AA18625E0E89600278614 /* Info.plist */,
 			);
 			path = OroshifyUITests;
+			sourceTree = "<group>";
+		};
+		53A5890025E0F2B3002A33BF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				538AA16225E0E89500278614 /* AppDelegate.swift */,
+				538AA16425E0E89500278614 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		53A5890425E0F2C1002A33BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				53A5890525E0F2E4002A33BF /* Authentication.storyboard */,
+				53A5892025E0F36B002A33BF /* Base.storyboard */,
+				538AA16825E0E89500278614 /* Main.storyboard */,
+				538AA16D25E0E89600278614 /* LaunchScreen.storyboard */,
+				538AA16B25E0E89600278614 /* Assets.xcassets */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		53A5891225E0F339002A33BF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				53A5890D25E0F32E002A33BF /* AuthenticationViewController.swift */,
+				53A5891325E0F346002A33BF /* SignupViewController.swift */,
+				53A5891B25E0F34E002A33BF /* SigninViewController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		56B37238E608430183A2F4F9 /* AmplifyConfig */ = {
@@ -316,11 +358,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A5890625E0F2E4002A33BF /* Authentication.storyboard in Resources */,
 				538AA16F25E0E89600278614 /* LaunchScreen.storyboard in Resources */,
 				538AA16C25E0E89600278614 /* Assets.xcassets in Resources */,
 				538AA16A25E0E89500278614 /* Main.storyboard in Resources */,
 				C8EAC4BA94AD4BEB98E05578 /* amplifyconfiguration.json in Resources */,
 				A8F440E9254E448B981AE029 /* awsconfiguration.json in Resources */,
+				53A5892125E0F36B002A33BF /* Base.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,10 +492,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A5891425E0F346002A33BF /* SignupViewController.swift in Sources */,
 				538AA16725E0E89500278614 /* ViewController.swift in Sources */,
 				538AA16325E0E89500278614 /* AppDelegate.swift in Sources */,
 				538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */,
 				BBC897EE759F4D95B1C3E8AC /* AmplifyModels.swift in Sources */,
+				53A5895425E0F410002A33BF /* CustomTabBarController.swift in Sources */,
+				53A5890E25E0F32E002A33BF /* AuthenticationViewController.swift in Sources */,
+				53A5891C25E0F34E002A33BF /* SigninViewController.swift in Sources */,
 				B60810B3DCC747BF9C2F62DA /* Priority.swift in Sources */,
 				236785571E7040BD9A4BBE3B /* Todo.swift in Sources */,
 				2B72356766D24625BEA170E0 /* Todo+Schema.swift in Sources */,

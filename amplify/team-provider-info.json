@@ -10,6 +10,11 @@
       "StackName": "amplify-oroshify-dev-160548",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:392617226359:stack/amplify-oroshify-dev-160548/10d830f0-734a-11eb-ac8c-0a856cbfd932",
       "AmplifyAppId": "dodtva4ziebma"
+    },
+    "categories": {
+      "auth": {
+        "oroshifye8e3f922": {}
+      }
     }
   }
 }
