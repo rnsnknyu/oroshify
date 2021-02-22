@@ -21,17 +21,26 @@ class AuthenticationViewController: UIViewController {
         configureNavBar()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        configureNavBar()
+    }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
     func configureNavBar() {
         self.navigationController?.navigationBar.barStyle = .default
-        self.navigationController!.navigationBar.barTintColor = #colorLiteral(red: 0.1019607843, green: 0.1019607843, blue: 0.1019607843, alpha: 1)
+        self.navigationController!.navigationBar.barTintColor = .clear
         self.navigationController!.navigationBar.tintColor = .white
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController!.navigationBar.titleTextAttributes = [
             .foregroundColor: UIColor.white
         ]
         self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.isTranslucent = true
     }
     
     func configureBtn() {

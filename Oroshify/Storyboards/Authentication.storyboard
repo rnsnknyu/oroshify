@@ -15,15 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Oroshify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWA-nd-CHb">
-                                <rect key="frame" x="20" y="375" width="374" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="AtB-up-uqs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Rv-Pg-6UL">
                                 <rect key="frame" x="40" y="812" width="334" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,13 +54,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95n-eL-FDM">
-                                <rect key="frame" x="40" y="455" width="334" height="40"/>
+                                <rect key="frame" x="40" y="652" width="334" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="PuO-Yp-6JG"/>
+                                    <constraint firstAttribute="height" constant="40" id="gHD-v9-0cP"/>
                                 </constraints>
                                 <string key="text">Online Wholesale Marketplace 
 for Retailers &amp; Brands</string>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="base" translatesAutoresizingMaskIntoConstraints="NO" id="mMO-eX-ec4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mMO-eX-ec4" secondAttribute="height" multiplier="809:500" id="JKO-X8-ylz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Oroshify" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWA-nd-CHb">
+                                <rect key="frame" x="0.0" y="458.5" width="414" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -78,17 +81,21 @@ for Retailers &amp; Brands</string>
                         <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="v7G-kM-ypc" firstAttribute="trailing" secondItem="5Rv-Pg-6UL" secondAttribute="trailing" constant="40" id="1ac-ae-AJb"/>
-                            <constraint firstItem="95n-eL-FDM" firstAttribute="top" secondItem="SWA-nd-CHb" secondAttribute="bottom" constant="40" id="7dB-ar-9YZ"/>
-                            <constraint firstItem="v7G-kM-ypc" firstAttribute="trailing" secondItem="SWA-nd-CHb" secondAttribute="trailing" constant="20" id="Bse-6d-5EQ"/>
+                            <constraint firstItem="v7G-kM-ypc" firstAttribute="trailing" secondItem="95n-eL-FDM" secondAttribute="trailing" constant="40" id="3Mb-Dh-EPK"/>
+                            <constraint firstItem="wBj-1q-eud" firstAttribute="top" secondItem="95n-eL-FDM" secondAttribute="bottom" constant="50" id="6nS-7O-R5z"/>
+                            <constraint firstItem="mMO-eX-ec4" firstAttribute="trailing" secondItem="v7G-kM-ypc" secondAttribute="trailing" id="B82-mG-OGH"/>
                             <constraint firstItem="wBj-1q-eud" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" constant="40" id="Drr-03-8xq"/>
-                            <constraint firstItem="95n-eL-FDM" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" constant="40" id="KHp-0Q-pcI"/>
                             <constraint firstItem="v7G-kM-ypc" firstAttribute="trailing" secondItem="wBj-1q-eud" secondAttribute="trailing" constant="40" id="LoF-Cm-Lm9"/>
-                            <constraint firstItem="95n-eL-FDM" firstAttribute="centerY" secondItem="v7G-kM-ypc" secondAttribute="centerY" id="Oet-9h-pix"/>
+                            <constraint firstItem="SWA-nd-CHb" firstAttribute="centerX" secondItem="v7G-kM-ypc" secondAttribute="centerX" id="Mqx-0Z-uGA"/>
+                            <constraint firstItem="SWA-nd-CHb" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" id="NXo-eh-BJL"/>
+                            <constraint firstItem="mMO-eX-ec4" firstAttribute="top" secondItem="aO9-uv-NQd" secondAttribute="top" id="PuI-UJ-TRb"/>
+                            <constraint firstItem="mMO-eX-ec4" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" id="TVj-rr-C3e"/>
+                            <constraint firstItem="95n-eL-FDM" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" constant="40" id="W0w-At-vH4"/>
                             <constraint firstItem="5Rv-Pg-6UL" firstAttribute="top" secondItem="wBj-1q-eud" secondAttribute="bottom" constant="20" id="bBy-IQ-OIf"/>
                             <constraint firstItem="5Rv-Pg-6UL" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" constant="40" id="jiF-Db-h3d"/>
+                            <constraint firstItem="SWA-nd-CHb" firstAttribute="centerY" secondItem="v7G-kM-ypc" secondAttribute="centerY" id="od4-WA-cC4"/>
                             <constraint firstItem="5Rv-Pg-6UL" firstAttribute="bottom" secondItem="v7G-kM-ypc" secondAttribute="bottom" id="q6N-ZP-VnX"/>
-                            <constraint firstItem="SWA-nd-CHb" firstAttribute="leading" secondItem="v7G-kM-ypc" secondAttribute="leading" constant="20" id="ugr-Aq-ejW"/>
-                            <constraint firstItem="v7G-kM-ypc" firstAttribute="trailing" secondItem="95n-eL-FDM" secondAttribute="trailing" constant="40" id="usW-Pn-W0F"/>
+                            <constraint firstItem="SWA-nd-CHb" firstAttribute="trailing" secondItem="v7G-kM-ypc" secondAttribute="trailing" id="wKV-Wo-wdb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Pj7-wy-6Hu">
@@ -714,6 +721,7 @@ for Retailers &amp; Brands</string>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="nextBtnTapped:" destination="Sgf-La-cjq" eventType="touchUpInside" id="Bh2-9p-jNk"/>
+                                    <segue destination="DQN-AO-s0R" kind="presentation" id="cqq-d4-nri"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start stocking your shelves today with product from many brands!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvj-wa-Sge">
@@ -762,6 +770,16 @@ for Retailers &amp; Brands</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOn-KE-5mm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4577" y="-56"/>
+        </scene>
+        <!--Base-->
+        <scene sceneID="QGH-JR-7KV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Base" id="DQN-AO-s0R" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3p4-fM-nG4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bch-hA-HbK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5560" y="-56"/>
         </scene>
         <!--Signin View Controller-->
         <scene sceneID="ls0-lT-2yR">
@@ -840,6 +858,7 @@ for Retailers &amp; Brands</string>
                                 <connections>
                                     <action selector="signInBtnTapped:" destination="J7R-ah-C31" eventType="touchUpInside" id="sgh-HI-uxE"/>
                                     <action selector="signupBtnTapped:" destination="5YF-w8-6o3" eventType="touchUpInside" id="UID-XW-bBb"/>
+                                    <segue destination="DQN-AO-s0R" kind="presentation" id="JMu-w6-qyy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYO-UV-mgK">
@@ -1089,4 +1108,10 @@ for Retailers &amp; Brands</string>
             <point key="canvasLocation" x="-359.4202898550725" y="-56.25"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="JMu-w6-qyy"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="base" width="1080" height="1080"/>
+    </resources>
 </document>

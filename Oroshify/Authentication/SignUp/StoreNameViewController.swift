@@ -26,6 +26,8 @@ class StoreNameViewController: UIViewController {
         super.viewDidLoad()
         configureNavBar()
         configureTF()
+        print(DamyUserID!)
+        print(DamyAnnualSales!)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

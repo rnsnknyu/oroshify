@@ -12,6 +12,7 @@ target 'Oroshify' do
    pod 'AmplifyPlugins/AWSAPIPlugin'
    pod 'AmplifyPlugins/AWSDataStorePlugin'
    pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+   pod 'AmplifyPlugins/AWSS3StoragePlugin'
 
   target 'OroshifyTests' do
     inherit! :search_paths

@@ -1,6 +1,6 @@
 {
     "identityPoolName": "oroshifye8e3f922_identitypool_e8e3f922",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "oroshie8e3f922",
     "userPoolName": "oroshifye8e3f922_userpool_e8e3f922",
     "autoVerifiedAttributes": [

@@ -42,8 +42,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             try Amplify.add(plugin: apiPlugin)
             try Amplify.add(plugin: dataStorePlugin)
             try Amplify.add(plugin: AWSCognitoAuthPlugin())
+            try Amplify.add(plugin: AWSS3StoragePlugin())
             try Amplify.configure()
-            print("Amplify configured with auth plugin")
+            print("Amplify configured with storage plugin")
         } catch {
             print("Could not initialize Amplify: \(error)")
         }
