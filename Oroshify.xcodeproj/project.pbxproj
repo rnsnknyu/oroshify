@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		236785571E7040BD9A4BBE3B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AC6C6D43054124B5DE37BB /* Todo.swift */; };
 		2B72356766D24625BEA170E0 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36DC55B1F1E4FA997F06BA2 /* Todo+Schema.swift */; };
+		5304FF0C25E0FC83004BEF22 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304FF0B25E0FC83004BEF22 /* VerificationViewController.swift */; };
+		5304FF1425E20EA1004BEF22 /* StroretypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304FF1325E20EA1004BEF22 /* StroretypeViewController.swift */; };
+		5304FF1D25E2149F004BEF22 /* AnnualsalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304FF1C25E2149F004BEF22 /* AnnualsalesViewController.swift */; };
+		5348D7E625E347F700BF9FAA /* StoreNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348D7E525E347F700BF9FAA /* StoreNameViewController.swift */; };
 		538AA16325E0E89500278614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16225E0E89500278614 /* AppDelegate.swift */; };
 		538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16425E0E89500278614 /* SceneDelegate.swift */; };
 		538AA16725E0E89500278614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16625E0E89500278614 /* ViewController.swift */; };
@@ -57,6 +61,10 @@
 		334D87FA1E12F6332573ABD7 /* Pods_Oroshify_OroshifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oroshify_OroshifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA27CE50AC24CE7BB3C3AB2 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		4CE5B8FB588742AD963DFBD0 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		5304FF0B25E0FC83004BEF22 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		5304FF1325E20EA1004BEF22 /* StroretypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroretypeViewController.swift; sourceTree = "<group>"; };
+		5304FF1C25E2149F004BEF22 /* AnnualsalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnualsalesViewController.swift; sourceTree = "<group>"; };
+		5348D7E525E347F700BF9FAA /* StoreNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreNameViewController.swift; sourceTree = "<group>"; };
 		538AA15F25E0E89500278614 /* Oroshify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oroshify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AA16225E0E89500278614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538AA16425E0E89500278614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +125,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5304FF1825E20EB6004BEF22 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				53A5891325E0F346002A33BF /* SignupViewController.swift */,
+				5304FF0B25E0FC83004BEF22 /* VerificationViewController.swift */,
+				5304FF1325E20EA1004BEF22 /* StroretypeViewController.swift */,
+				5304FF1C25E2149F004BEF22 /* AnnualsalesViewController.swift */,
+				5348D7E525E347F700BF9FAA /* StoreNameViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		538AA15625E0E89500278614 = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				53A5890D25E0F32E002A33BF /* AuthenticationViewController.swift */,
-				53A5891325E0F346002A33BF /* SignupViewController.swift */,
+				5304FF1825E20EB6004BEF22 /* SignUp */,
 				53A5891B25E0F34E002A33BF /* SigninViewController.swift */,
 			);
 			path = Authentication;
@@ -498,10 +518,14 @@
 				538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */,
 				BBC897EE759F4D95B1C3E8AC /* AmplifyModels.swift in Sources */,
 				53A5895425E0F410002A33BF /* CustomTabBarController.swift in Sources */,
+				5304FF0C25E0FC83004BEF22 /* VerificationViewController.swift in Sources */,
 				53A5890E25E0F32E002A33BF /* AuthenticationViewController.swift in Sources */,
 				53A5891C25E0F34E002A33BF /* SigninViewController.swift in Sources */,
+				5348D7E625E347F700BF9FAA /* StoreNameViewController.swift in Sources */,
 				B60810B3DCC747BF9C2F62DA /* Priority.swift in Sources */,
+				5304FF1425E20EA1004BEF22 /* StroretypeViewController.swift in Sources */,
 				236785571E7040BD9A4BBE3B /* Todo.swift in Sources */,
+				5304FF1D25E2149F004BEF22 /* AnnualsalesViewController.swift in Sources */,
 				2B72356766D24625BEA170E0 /* Todo+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
