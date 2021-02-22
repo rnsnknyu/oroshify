@@ -13,6 +13,7 @@
 		5304FF1425E20EA1004BEF22 /* StroretypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304FF1325E20EA1004BEF22 /* StroretypeViewController.swift */; };
 		5304FF1D25E2149F004BEF22 /* AnnualsalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5304FF1C25E2149F004BEF22 /* AnnualsalesViewController.swift */; };
 		5348D7E625E347F700BF9FAA /* StoreNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348D7E525E347F700BF9FAA /* StoreNameViewController.swift */; };
+		5348D7EF25E34F1D00BF9FAA /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348D7EE25E34F1D00BF9FAA /* ResetPasswordViewController.swift */; };
 		538AA16325E0E89500278614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16225E0E89500278614 /* AppDelegate.swift */; };
 		538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16425E0E89500278614 /* SceneDelegate.swift */; };
 		538AA16725E0E89500278614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AA16625E0E89500278614 /* ViewController.swift */; };
@@ -65,6 +66,7 @@
 		5304FF1325E20EA1004BEF22 /* StroretypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroretypeViewController.swift; sourceTree = "<group>"; };
 		5304FF1C25E2149F004BEF22 /* AnnualsalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnualsalesViewController.swift; sourceTree = "<group>"; };
 		5348D7E525E347F700BF9FAA /* StoreNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreNameViewController.swift; sourceTree = "<group>"; };
+		5348D7EE25E34F1D00BF9FAA /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		538AA15F25E0E89500278614 /* Oroshify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oroshify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AA16225E0E89500278614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		538AA16425E0E89500278614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,15 @@
 				5348D7E525E347F700BF9FAA /* StoreNameViewController.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		5348D7EA25E34C2F00BF9FAA /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				53A5891B25E0F34E002A33BF /* SigninViewController.swift */,
+				5348D7EE25E34F1D00BF9FAA /* ResetPasswordViewController.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		538AA15625E0E89500278614 = {
@@ -218,7 +229,7 @@
 			children = (
 				53A5890D25E0F32E002A33BF /* AuthenticationViewController.swift */,
 				5304FF1825E20EB6004BEF22 /* SignUp */,
-				53A5891B25E0F34E002A33BF /* SigninViewController.swift */,
+				5348D7EA25E34C2F00BF9FAA /* SignIn */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -515,6 +526,7 @@
 				53A5891425E0F346002A33BF /* SignupViewController.swift in Sources */,
 				538AA16725E0E89500278614 /* ViewController.swift in Sources */,
 				538AA16325E0E89500278614 /* AppDelegate.swift in Sources */,
+				5348D7EF25E34F1D00BF9FAA /* ResetPasswordViewController.swift in Sources */,
 				538AA16525E0E89500278614 /* SceneDelegate.swift in Sources */,
 				BBC897EE759F4D95B1C3E8AC /* AmplifyModels.swift in Sources */,
 				53A5895425E0F410002A33BF /* CustomTabBarController.swift in Sources */,

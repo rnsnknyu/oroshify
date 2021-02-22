@@ -25,8 +25,12 @@ class StoreNameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNavBar()
+        configureTF()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
     
     func configureNavBar() {
         self.navigationController?.navigationBar.barStyle = .default
@@ -38,6 +42,13 @@ class StoreNameViewController: UIViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = false
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+    }
+    
+    func configureTF() {
+        storeNameTextField.textColor = #colorLiteral(red: 0.9803921569, green: 1, blue: 1, alpha: 1)
+        storeAddressTextField.textColor = #colorLiteral(red: 0.9803921569, green: 1, blue: 1, alpha: 1)
+        storeNameTextField.attributedPlaceholder = NSAttributedString(string: "your store Name", attributes: [NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.3019607843, green: 0.3019607843, blue: 0.3019607843, alpha: 1)])
+        storeAddressTextField.attributedPlaceholder = NSAttributedString(string: "your store address", attributes: [NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.3019607843, green: 0.3019607843, blue: 0.3019607843, alpha: 1)])
     }
     
     @IBAction func nextBtnTapped(_ sender: Any) {
